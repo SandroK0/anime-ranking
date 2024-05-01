@@ -4,7 +4,8 @@ Anime Ranking is a web application that allows users to rank their favorite anim
 
 ## Screenshots
 
-![Alt text](/Home.png "Home Page")
+![home](/Home.png "Home Page")
+![leaderboard](/leaderboard.png "Leaderboard Page")
 
 ## Technologies Used
 
