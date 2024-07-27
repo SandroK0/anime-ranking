@@ -24,44 +24,48 @@ Anime Ranking is a web application that allows users to rank their favorite anim
 
 1. Clone this repository:
 
-```bash
-git clone https://github.com/SandroK0/anime-ranking.git
+bash
+    
+    git clone https://github.com/SandroK0/anime-ranking.git
 
-    Navigate to the project directory:
+2. Navigate to the project directory:
 
 bash
 
-cd anime-ranking
+    cd anime-ranking
 
-    Install dependencies:
-
-bash
-
-# For frontend (assuming using npm)
-cd frontend
-npm install
-
-# For backend (assuming using pip)
-cd ../backend
-pip install -r requirements.txt
-
-
-    Start the frontend and backend servers:
+3. Install dependencies:
 
 bash
+
+    # For frontend (assuming using npm)
+    cd frontend
+    npm install
+
+    # For backend (assuming using pip)
+    cd /backend
+    pip install -r requirements.txt
+
+
+4. Start the frontend and backend servers:
+
 
 # Frontend
-cd ../frontend
-npm start
+bash
+    
+    cd ../frontend
+    npm run dev
 
 # Backend
-cd ../backend
-python app.py
+bash
 
-    Access the application in your web browser:
+    cd ../backend
+    flask run
+
+5. Access the application in your web browser:
 
 url
 
-http://localhost:5173  # Frontend
-http://localhost:5000  # Backend
-```
+    http://localhost:5173  # Frontend
+    http://localhost:5000  # Backend
+
