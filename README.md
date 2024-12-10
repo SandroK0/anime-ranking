@@ -1,4 +1,4 @@
-# Anime Ranking
+# Anime Ranking [(view)](http://35.246.196.216/)
 
 Anime Ranking is a web application that allows users to rank their favorite anime by comparing them in pairs. The application utilizes an Elo rating algorithm to dynamically adjust anime ratings based on user preferences, resulting in a leaderboard of the top-ranked anime.
 
