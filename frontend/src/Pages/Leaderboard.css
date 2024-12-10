@@ -1,0 +1,50 @@
+.Leaderboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ranking {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.anime-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #ff9900;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.loading,
+.end-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
