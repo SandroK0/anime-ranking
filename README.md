@@ -6,6 +6,8 @@ Anime Ranking is a web application that allows users to rank their favorite anim
 
 ![home](/Home.png "Home Page")
 ![leaderboard](/leaderboard.png "Leaderboard Page")
+![Alt text](/animation.gif)
+
 
 ## Technologies Used
 
@@ -20,6 +22,44 @@ Anime Ranking is a web application that allows users to rank their favorite anim
   - Flask
   - SQLite
 
+
+## Run Using Docker
+
+### Prerequisites
+
+- Docker
+- Docker Compose
+
+### Building and Running the Application
+
+1. Clone this repository:
+
+   ```
+    git clone https://github.com/SandroK0/anime-ranking.git
+    cd anime-ranking
+   ```
+
+2. Build the Docker containers:
+
+   ```
+   docker-compose build
+   ```
+
+3. Start the application:
+
+   ```
+   docker-compose up
+   ```
+
+4. Access the application in your web browser at `http://localhost:3000` (or the appropriate port if you've configured it differently).
+
+To stop the application, press `Ctrl+C` in the terminal where it's running, or run:
+
+```
+docker-compose down
+```
+
+
 ## Setup
 
 1. Clone this repository:
@@ -28,7 +68,7 @@ bash
     
     git clone https://github.com/SandroK0/anime-ranking.git
 
-2. Navigate to the project directory:
+2. Navigate to the project directory:![alt text](<Screenshot from 2024-12-10 20-48-24.png>) ![alt text](<Screenshot from 2024-12-10 20-48-32.png>)
 
 bash
 
